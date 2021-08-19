@@ -93,3 +93,8 @@ li {
     display: flex;
     justify-content: space-around;
 }
+
+.info-contacts {
+    display: flex;
+    justify-content: center;
+}
