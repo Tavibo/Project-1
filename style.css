@@ -14,6 +14,7 @@ p {
 }
 
 h1 {
+    width: 510px;
     font-size: 64px;
     color: #1F3F68;
 }
@@ -30,6 +31,7 @@ h3 {
 }
 
 h4 {
+    width: 359px;
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
@@ -60,10 +62,6 @@ textarea {
     margin: 0 auto;
 }
 
-.top {
-    border: 1px solid #000;
-}
-
 .banner {
     border: 1px solid #000;
 }
@@ -76,4 +74,13 @@ textarea {
 
 li {
     list-style: none;
+}
+
+.text-head {
+    width: 425px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
 }
