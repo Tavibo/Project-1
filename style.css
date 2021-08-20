@@ -67,12 +67,17 @@ textarea {
     margin: 0 auto;
 }
 
-.top_menu {
+/*.top_menu {
     display: flex;
     flex-direction: column;
     height: 100%;
-}
+}*/
 
+.ill {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 110px;
+}
 
 
 .menu {
@@ -85,10 +90,10 @@ textarea {
 
 .present {
     padding-top: 115px;
-    flex-grow: 1;
+    /*flex-grow: 1;
     background-image: url(images/top-illustration.png);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right center;*/
 }
 
 .head-name {
