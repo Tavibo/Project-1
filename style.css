@@ -112,6 +112,8 @@ textarea {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     position: absolute;
+    top: 32px;
+    left: 32px;
 }
 
 .submit {
