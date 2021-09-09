@@ -7,6 +7,11 @@ body {
     padding: 0;
 }
 
+.line {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
 .text {
     font-size: 16px;
     line-height: 26px;
@@ -18,9 +23,11 @@ body {
 .project-text {
     width: 75%;
     margin: 32px auto 64px;
-    color: #222222;
+    font-size: 16px;
+    line-height: 26px;
     text-align: center;
     letter-spacing: 0.05em;
+    color: #222222;
 }
 
 .top {
@@ -56,6 +63,7 @@ body {
     letter-spacing: 0.05em;
     color: #5A98D0;
     text-decoration: none;
+    padding-top: 27px;
 }
 
 .heading-mini {
@@ -93,7 +101,6 @@ textarea {
 
 .project_item_margin {
     margin-right: 32px;
-    position: relative;
 }
 
 .project_text {
@@ -109,7 +116,7 @@ textarea {
 
 
 
-.project_text_1 {
+.project_text_mini {
     font-size: 28px;
     line-height: 46px;
     letter-spacing: 0.05em;
@@ -220,14 +227,16 @@ textarea {
 
 .footer {
     background: #316099;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    margin-top: 112px;
 }
 
 .foot-up {
     display: flex;
     justify-content: space-between;
-    height: 391px;
+    padding-bottom: 96px;
     align-items: center;
-    margin-top: 115px;
 }
 
 .foot-info {
@@ -252,7 +261,8 @@ textarea {
     line-height: 46px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    text-align: inherit;
+    text-align: left;
+    margin-bottom: 32px;
 }
 
 .text-foot-down {
@@ -261,21 +271,19 @@ textarea {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.6;
-    margin-top: 32px;
 }
 
 .foot-list {
     display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
 
+.footer_list {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-
-
-}
-
-.footer_list {
     flex-basis: 33.333%;
     display: flex;
     margin-right: 32px;
@@ -284,9 +292,22 @@ textarea {
 
 }
 
-.foot-contacts {
-    padding-top: 64px;
-    padding-bottom: 64px;
+.footer_list:first-child::before {
+    content: 'A.';
+    display: block;
+    margin-right: 16px;
+}
+
+.footer_list:nth-child(2)::before {
+    content: 'T.';
+    display: block;
+    margin-right: 16px;
+}
+
+.footer_list:nth-child(3)::before {
+    content: 'E.';
+    display: block;
+    margin-right: 16px;
 }
 
 .info-contacts {
